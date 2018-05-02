@@ -1,0 +1,41 @@
+{
+  "name": "dweb-path",
+  "version": "0.0.0",
+  "description": "Utility for parsing, validating and inspecting dweb paths",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "standard && nyc --reporter=lcov --reporter=text ava"
+  },
+  "keywords": [
+    "IPFS",
+    "path",
+    "cid",
+    "hash",
+    "multihash",
+    "util"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "nyc": "^11.7.1",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "cids": "^0.5.3",
+    "explain-error": "^1.0.4",
+    "is-domain-name": "^1.0.1",
+    "multibase": "^0.4.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tableflip/dweb-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tableflip/dweb-path/issues"
+  },
+  "homepage": "https://github.com/tableflip/dweb-path#readme"
+}
